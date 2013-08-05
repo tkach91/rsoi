@@ -1,0 +1,71 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "UserInfo"
+    },
+    "id": "ExtBox1-ext-gen4698",
+    "designerId": "e54eecbb-f1da-4f62-8c50-80fca48b6bcd",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field5",
+                "name": "id",
+                "type": "int"
+            },
+            "designerId": "df16128e-c741-4528-b854-0f8aea394861"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field9",
+                "name": "server",
+                "type": "string"
+            },
+            "designerId": "736c176a-9301-453b-b781-7142e9dd8a37"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field6",
+                "name": "username",
+                "type": "string"
+            },
+            "designerId": "d708d1f5-2b93-40eb-839a-d664fbb2e7a5"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field7",
+                "name": "password",
+                "type": "string"
+            },
+            "designerId": "a08abc4f-086d-4466-9823-cdbd8dec5057"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Users",
+            "Catalogue",
+            "Administrators",
+            "Orders",
+            "Orders_Catalogue"
+        ],
+        "stores": [
+            "JUsers",
+            "JCatalogue",
+            "Administrators",
+            "JOrders",
+            "JOrders_Catalogue"
+        ],
+        "views": [
+            "MyPanel3"
+        ],
+        "appFolder": null,
+        "autoCreateViewport": true,
+        "name": "Catalogue"
+    },
+    "id": "ExtBox1-ext-gen2351",
+    "designerId": "application"
+}

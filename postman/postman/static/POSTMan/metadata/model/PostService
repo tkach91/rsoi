@@ -1,0 +1,112 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PostService"
+    },
+    "id": "ExtBox1-ext-gen2515",
+    "designerId": "4b6777fd-f054-4e17-ae34-d06f6ef76396",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field",
+                "name": "id",
+                "type": "int"
+            },
+            "designerId": "cfe6aaac-a6c6-410d-8b89-0035cd5989c1"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field8",
+                "name": "idUser"
+            },
+            "designerId": "b9e14a50-0f15-428f-84e3-bd9b2103b4a7"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field1",
+                "name": "idExternal",
+                "type": "int"
+            },
+            "designerId": "668c3ede-8c8a-4c0e-bc43-110cd02886ec"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field2",
+                "name": "address",
+                "type": "string"
+            },
+            "designerId": "6ed28014-537c-4ba7-bc50-bc4726800220"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field3",
+                "name": "date",
+                "type": "date"
+            },
+            "designerId": "e70a7707-7cb1-440d-b5d5-10ea0733342a"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field4",
+                "name": "status",
+                "type": "string"
+            },
+            "designerId": "eba09d1d-eba7-444f-b8b4-c55023a941fc"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyHasOneAssociation",
+                "associationKey": "idUser",
+                "model": "UserInfo"
+            },
+            "designerId": "e486565c-886b-4221-b38a-ef79f32abdfa"
+        }
+    ]
+}

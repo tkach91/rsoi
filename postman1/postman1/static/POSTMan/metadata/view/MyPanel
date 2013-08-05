@@ -1,0 +1,224 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyPanel",
+        "designer|initialView": true,
+        "height": 421,
+        "width": 760,
+        "layout": "border",
+        "title": "Post Man"
+    },
+    "id": "ExtBox1-ext-gen7212",
+    "designerId": "90dd3cbc-961b-4577-bff8-a2a34368a9a2",
+    "cn": [
+        {
+            "type": "gridpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center",
+                "designer|userClassName": "MyGridPanel",
+                "title": null,
+                "store": "JPostService"
+            },
+            "designerId": "a761c69d-63c6-44bc-9d21-092b58dd2e3c",
+            "cn": [
+                {
+                    "type": "gridview",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyGridView"
+                    },
+                    "designerId": "da11ae95-8af3-42c1-b3a0-ba0f0e9621d2"
+                },
+                {
+                    "type": "numbercolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyNumberColumn1",
+                        "hidden": true,
+                        "dataIndex": "id",
+                        "text": "Id"
+                    },
+                    "designerId": "25c6a556-9d0d-4311-8041-041713a4c395"
+                },
+                {
+                    "type": "gridcolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn1",
+                        "hidden": true,
+                        "dataIndex": "idUser",
+                        "text": "IdUser"
+                    },
+                    "designerId": "139c1f8e-44e3-4c17-9bb0-acc795820002"
+                },
+                {
+                    "type": "numbercolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyNumberColumn2",
+                        "hidden": true,
+                        "dataIndex": "idExternal",
+                        "text": "IdExternal"
+                    },
+                    "designerId": "b247572f-0318-49b0-bef3-b19120250b31"
+                },
+                {
+                    "type": "gridcolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn2",
+                        "dataIndex": "address",
+                        "text": "Address"
+                    },
+                    "designerId": "405c3030-b54c-46f4-9f26-6197748b1912"
+                },
+                {
+                    "type": "datecolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyDateColumn1",
+                        "dataIndex": "date",
+                        "text": "Date"
+                    },
+                    "designerId": "4270befc-23a8-4ff9-bf19-6b63a0fb816d"
+                },
+                {
+                    "type": "gridcolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn3",
+                        "dataIndex": "status",
+                        "text": "Status"
+                    },
+                    "designerId": "a52f6d4c-fa92-4812-a893-8a4486bcd0a9"
+                }
+            ]
+        },
+        {
+            "type": "gridpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "west",
+                "designer|userClassName": "MyGridPanel1",
+                "width": 220,
+                "title": null,
+                "store": "JUserInfo"
+            },
+            "designerId": "7abbd7a0-2ad2-4f26-88c6-4f13ee8b7527",
+            "cn": [
+                {
+                    "type": "gridview",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyGridView1"
+                    },
+                    "designerId": "da8fd006-4f28-4155-ae61-c0f5181e77b5"
+                },
+                {
+                    "type": "numbercolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyNumberColumn3",
+                        "hidden": true,
+                        "dataIndex": "id",
+                        "text": "Id"
+                    },
+                    "designerId": "cd1e7948-5ed5-45b0-8fd7-f979d3b066d5"
+                },
+                {
+                    "type": "gridcolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn4",
+                        "dataIndex": "server",
+                        "text": "Server"
+                    },
+                    "designerId": "8dfbdfeb-283b-454b-a33c-1dbf21d9e3c5"
+                },
+                {
+                    "type": "gridcolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn5",
+                        "dataIndex": "username",
+                        "text": "Username"
+                    },
+                    "designerId": "4dadead9-43ef-4e20-b674-a43db48ca7bf"
+                },
+                {
+                    "type": "gridcolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn6",
+                        "hidden": true,
+                        "dataIndex": "password",
+                        "text": "Password"
+                    },
+                    "designerId": "844188b4-6e79-4b04-a8f6-c5655dec141f"
+                }
+            ]
+        }
+    ]
+}

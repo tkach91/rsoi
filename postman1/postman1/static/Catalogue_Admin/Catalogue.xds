@@ -1,0 +1,140 @@
+{
+    "name": "Catalogue",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 678,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "ebae3968-c6a4-42df-8adb-51bd68f5cbf4": {
+            "paths": [
+                "metadata/view/MyPanel3",
+                "app/view/override/MyPanel3.js",
+                "app/view/MyPanel3.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyPanel3"
+        },
+        "f7432e29-6501-4fd4-b540-517fab7675b4": {
+            "paths": [
+                "metadata/store/JUsers",
+                "app/store/override/JUsers.js",
+                "app/store/JUsers.js"
+            ],
+            "className": "JUsers"
+        },
+        "0e459cfa-bc69-46c0-8c5f-ed0b0b5e588d": {
+            "paths": [
+                "metadata/store/JCatalogue",
+                "app/store/override/JCatalogue.js",
+                "app/store/JCatalogue.js"
+            ],
+            "className": "JCatalogue"
+        },
+        "89324d82-9c77-4621-9533-eecb9a10f334": {
+            "paths": [
+                "metadata/store/Administrators",
+                "app/store/override/Administrators.js",
+                "app/store/Administrators.js"
+            ],
+            "className": "Administrators"
+        },
+        "a5d2ecf0-79f5-48ce-b371-ec800b2702cf": {
+            "paths": [
+                "metadata/store/JOrders",
+                "app/store/override/JOrders.js",
+                "app/store/JOrders.js"
+            ],
+            "className": "JOrders"
+        },
+        "e91f6fc8-3aae-49e8-b3de-e5c25dd2cfe3": {
+            "paths": [
+                "metadata/store/JOrders_Catalogue",
+                "app/store/override/JOrders_Catalogue.js",
+                "app/store/JOrders_Catalogue.js"
+            ],
+            "className": "JOrders_Catalogue"
+        },
+        "b7fa6493-1cd2-4a5f-bff0-96b9f1deba76": {
+            "paths": [
+                "metadata/model/Users",
+                "app/model/override/Users.js",
+                "app/model/Users.js"
+            ],
+            "className": "Users"
+        },
+        "22231af1-22ec-4584-9eed-78c7f699a34c": {
+            "paths": [
+                "metadata/model/Administrators",
+                "app/model/override/Administrators.js",
+                "app/model/Administrators.js"
+            ],
+            "className": "Administrators"
+        },
+        "0a9c18eb-23b9-4ff7-92cd-7e454651af40": {
+            "paths": [
+                "metadata/model/Catalogue",
+                "app/model/override/Catalogue.js",
+                "app/model/Catalogue.js"
+            ],
+            "className": "Catalogue"
+        },
+        "36bac42f-70d4-41e9-b4c4-0ecbb155077d": {
+            "paths": [
+                "metadata/model/Orders",
+                "app/model/override/Orders.js",
+                "app/model/Orders.js"
+            ],
+            "className": "Orders"
+        },
+        "55f4c983-a971-459d-a582-39febbdd0845": {
+            "paths": [
+                "metadata/model/Orders_Catalogue",
+                "app/model/override/Orders_Catalogue.js",
+                "app/model/Orders_Catalogue.js"
+            ],
+            "className": "Orders_Catalogue"
+        },
+        "f9c5fc68-6fe9-4079-aeac-9b2fc7c334d3": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "ebae3968-c6a4-42df-8adb-51bd68f5cbf4"
+        ],
+        "store": [
+            "f7432e29-6501-4fd4-b540-517fab7675b4",
+            "0e459cfa-bc69-46c0-8c5f-ed0b0b5e588d",
+            "89324d82-9c77-4621-9533-eecb9a10f334",
+            "a5d2ecf0-79f5-48ce-b371-ec800b2702cf",
+            "e91f6fc8-3aae-49e8-b3de-e5c25dd2cfe3"
+        ],
+        "controller": [],
+        "model": [
+            "b7fa6493-1cd2-4a5f-bff0-96b9f1deba76",
+            "22231af1-22ec-4584-9eed-78c7f699a34c",
+            "0a9c18eb-23b9-4ff7-92cd-7e454651af40",
+            "36bac42f-70d4-41e9-b4c4-0ecbb155077d",
+            "55f4c983-a971-459d-a582-39febbdd0845"
+        ],
+        "resource": [
+            "f9c5fc68-6fe9-4079-aeac-9b2fc7c334d3"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

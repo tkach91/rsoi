@@ -1,0 +1,54 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Orders_Catalogue"
+    },
+    "id": "ExtBox1-ext-gen6261",
+    "designerId": "55f4c983-a971-459d-a582-39febbdd0845",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field16",
+                "name": "idOrder"
+            },
+            "designerId": "f4520407-5f00-4552-b17d-cc95e2c34076"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field17",
+                "name": "idCatalogue"
+            },
+            "designerId": "162807ea-12e8-43ac-a355-f796d5a70a48"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field18",
+                "name": "count"
+            },
+            "designerId": "27cfc33a-8b24-49f9-bca5-a150b4fc56fb"
+        }
+    ]
+}

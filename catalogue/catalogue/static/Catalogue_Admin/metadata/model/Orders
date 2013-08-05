@@ -1,0 +1,80 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Orders"
+    },
+    "id": "ExtBox1-ext-gen5349",
+    "designerId": "36bac42f-70d4-41e9-b4c4-0ecbb155077d",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field11",
+                "name": "id"
+            },
+            "designerId": "cdfc4cba-1ede-4876-9b40-fe0831a468e8"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field12",
+                "name": "idUser"
+            },
+            "designerId": "1a175706-eeea-4eab-b558-3f987073f696"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field13",
+                "name": "address"
+            },
+            "designerId": "52e603e5-2fad-46e4-bbbf-eff3b5df7a27"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field14",
+                "name": "date"
+            },
+            "designerId": "f124939e-079b-4420-923c-f372bc2e6596"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field15",
+                "name": "status"
+            },
+            "designerId": "3f0c5080-d66d-43e7-bd36-ebb5873d3410"
+        }
+    ]
+}

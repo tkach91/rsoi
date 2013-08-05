@@ -1,0 +1,23 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "CatalogueOperator"
+        ],
+        "stores": [
+            "JCatalogueOperator"
+        ],
+        "views": [
+            "MyPanel"
+        ],
+        "autoCreateViewport": true,
+        "name": "MyApp"
+    },
+    "id": "ExtBox1-ext-gen1604",
+    "designerId": "application"
+}

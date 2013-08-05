@@ -1,0 +1,120 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyPanel",
+        "designer|initialView": true,
+        "height": 450,
+        "width": 753,
+        "layout": "border",
+        "title": "Storage"
+    },
+    "id": "ExtBox1-ext-gen5779",
+    "designerId": "9878295f-98b0-48f2-8443-05059792545e",
+    "cn": [
+        {
+            "type": "gridpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center",
+                "designer|userClassName": "MyGridPanel",
+                "title": null,
+                "store": "JCatalogueOperator"
+            },
+            "designerId": "ff7a0563-e9a3-477c-865e-c2f909fcefbc",
+            "cn": [
+                {
+                    "type": "gridview",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyGridView"
+                    },
+                    "designerId": "1db815b1-a634-47ed-b1b7-9812d58a4224"
+                },
+                {
+                    "type": "gridcolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn1",
+                        "hidden": true,
+                        "dataIndex": "id",
+                        "text": "Id"
+                    },
+                    "designerId": "558822a7-9fec-4006-b9ee-ea022c4d1f4b"
+                },
+                {
+                    "type": "gridcolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn2",
+                        "dataIndex": "name",
+                        "text": "Name"
+                    },
+                    "designerId": "32d34dec-0c6f-4422-8a02-c3409065d968"
+                },
+                {
+                    "type": "gridcolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn3",
+                        "dataIndex": "description",
+                        "text": "Description"
+                    },
+                    "designerId": "ab30bd82-e211-4df5-815d-e81caa252d89"
+                },
+                {
+                    "type": "gridcolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn4",
+                        "dataIndex": "price",
+                        "text": "Price"
+                    },
+                    "designerId": "2d390e91-b5b8-4073-9b95-47e1e28fd95c"
+                },
+                {
+                    "type": "gridcolumn",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyColumn5",
+                        "dataIndex": "count",
+                        "text": "Count"
+                    },
+                    "designerId": "f7b15327-5d99-4683-8d5d-dec8d19d47fb"
+                }
+            ]
+        }
+    ]
+}

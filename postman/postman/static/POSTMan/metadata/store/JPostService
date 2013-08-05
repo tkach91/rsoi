@@ -1,0 +1,15 @@
+{
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "JPostService",
+        "storeId": "JPostServiceID",
+        "model": "PostService"
+    },
+    "id": "ExtBox1-ext-gen4314",
+    "designerId": "a3a6d2ef-9dbe-4404-a04d-96872a86f11c"
+}

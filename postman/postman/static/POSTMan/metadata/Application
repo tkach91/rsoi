@@ -1,0 +1,25 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "PostService",
+            "UserInfo"
+        ],
+        "stores": [
+            "JPostService",
+            "JUserInfo"
+        ],
+        "views": [
+            "MyPanel"
+        ],
+        "autoCreateViewport": true,
+        "name": "POSTMan"
+    },
+    "id": "ExtBox1-ext-gen1614",
+    "designerId": "application"
+}

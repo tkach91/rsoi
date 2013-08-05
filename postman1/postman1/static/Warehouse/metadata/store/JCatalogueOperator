@@ -1,0 +1,15 @@
+{
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "JCatalogueOperator",
+        "storeId": "JCatalogueOperatorID",
+        "model": "CatalogueOperator"
+    },
+    "id": "ExtBox1-ext-gen7000",
+    "designerId": "0326b849-0562-4d5e-a282-f752ae96dec1"
+}

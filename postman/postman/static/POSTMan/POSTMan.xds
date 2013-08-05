@@ -1,0 +1,86 @@
+{
+    "name": "POSTMan",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 678,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "90dd3cbc-961b-4577-bff8-a2a34368a9a2": {
+            "paths": [
+                "metadata/view/MyPanel",
+                "app/view/override/MyPanel.js",
+                "app/view/MyPanel.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyPanel"
+        },
+        "a3a6d2ef-9dbe-4404-a04d-96872a86f11c": {
+            "paths": [
+                "metadata/store/JPostService",
+                "app/store/override/JPostService.js",
+                "app/store/JPostService.js"
+            ],
+            "className": "JPostService"
+        },
+        "fd8bb671-eb5b-4502-ba04-15827a6d47a7": {
+            "paths": [
+                "metadata/store/JUserInfo",
+                "app/store/override/JUserInfo.js",
+                "app/store/JUserInfo.js"
+            ],
+            "className": "JUserInfo"
+        },
+        "4b6777fd-f054-4e17-ae34-d06f6ef76396": {
+            "paths": [
+                "metadata/model/PostService",
+                "app/model/override/PostService.js",
+                "app/model/PostService.js"
+            ],
+            "className": "PostService"
+        },
+        "e54eecbb-f1da-4f62-8c50-80fca48b6bcd": {
+            "paths": [
+                "metadata/model/UserInfo",
+                "app/model/override/UserInfo.js",
+                "app/model/UserInfo.js"
+            ],
+            "className": "UserInfo"
+        },
+        "b868bf04-b08c-4235-8cc7-4fc3d12c62f5": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "90dd3cbc-961b-4577-bff8-a2a34368a9a2"
+        ],
+        "store": [
+            "a3a6d2ef-9dbe-4404-a04d-96872a86f11c",
+            "fd8bb671-eb5b-4502-ba04-15827a6d47a7"
+        ],
+        "controller": [],
+        "model": [
+            "4b6777fd-f054-4e17-ae34-d06f6ef76396",
+            "e54eecbb-f1da-4f62-8c50-80fca48b6bcd"
+        ],
+        "resource": [
+            "b868bf04-b08c-4235-8cc7-4fc3d12c62f5"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

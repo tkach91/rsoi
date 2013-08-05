@@ -1,0 +1,603 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyPanel3",
+        "designer|initialView": true,
+        "height": 435,
+        "width": 752,
+        "layout": "border",
+        "title": null
+    },
+    "id": "ExtBox1-ext-gen19386",
+    "designerId": "ebae3968-c6a4-42df-8adb-51bd68f5cbf4",
+    "cn": [
+        {
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center",
+                "designer|userClassName": "MyTabPanel",
+                "activeTab": 0
+            },
+            "designerId": "575092e2-26bb-4fa0-8b3c-0e433831e73c",
+            "cn": [
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel",
+                        "height": null,
+                        "width": null,
+                        "layout": "border",
+                        "title": "Catalogue List"
+                    },
+                    "designerId": "c55175ff-df49-474f-9622-0a58dcf49617",
+                    "cn": [
+                        {
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig"
+                            },
+                            "designerId": "c2e37a9c-7094-4a85-b8b4-99c80a359792"
+                        },
+                        {
+                            "type": "gridpanel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|region": "center",
+                                "designer|userClassName": "MyGridPanel",
+                                "title": null,
+                                "store": "JCatalogue"
+                            },
+                            "designerId": "4368bb17-d773-4692-8dc5-73b565106a97",
+                            "cn": [
+                                {
+                                    "type": "gridview",
+                                    "reference": {
+                                        "name": "viewConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyGridView"
+                                    },
+                                    "designerId": "546b5aad-4ecb-4046-867e-0ddba9d15f78"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn1",
+                                        "hidden": true,
+                                        "dataIndex": "id",
+                                        "text": "Id"
+                                    },
+                                    "designerId": "051aae52-652d-4b6e-8438-aec8a7b8b5b1"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn2",
+                                        "dataIndex": "name",
+                                        "text": "Name"
+                                    },
+                                    "designerId": "23160047-d7b4-4c53-b604-b32fa9cff0fd"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn3",
+                                        "dataIndex": "description",
+                                        "text": "Description"
+                                    },
+                                    "designerId": "754ffb4e-5c94-4288-8815-6f1ed908c233"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn4",
+                                        "dataIndex": "price",
+                                        "text": "Price"
+                                    },
+                                    "designerId": "ad2f6407-7d01-42f3-8b0b-2ee3745c03aa"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel4",
+                        "layout": "border",
+                        "title": "Check Out"
+                    },
+                    "designerId": "3e9cdc79-4483-4237-ad10-6251ab1fbab5",
+                    "cn": [
+                        {
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig3"
+                            },
+                            "designerId": "aaac7d2e-1162-43da-8c64-07a6931fad95"
+                        },
+                        {
+                            "type": "gridpanel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|region": "center",
+                                "designer|userClassName": "MyGridPanel1",
+                                "title": null,
+                                "store": "JOrders_Catalogue"
+                            },
+                            "designerId": "6258407a-7fcd-4820-abad-678d513dd7e5",
+                            "cn": [
+                                {
+                                    "type": "gridview",
+                                    "reference": {
+                                        "name": "viewConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyGridView1"
+                                    },
+                                    "designerId": "5bf55328-877c-447e-b5bd-e07dd0418484"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn5",
+                                        "dataIndex": "idOrder",
+                                        "text": "IdOrder"
+                                    },
+                                    "designerId": "1aaa6052-fbfd-4f20-a186-a8a24debe788"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn6",
+                                        "dataIndex": "idCatalogue",
+                                        "text": "IdCatalogue"
+                                    },
+                                    "designerId": "a5f1566e-e6a5-4981-9833-209206d4bc46"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn7",
+                                        "dataIndex": "count",
+                                        "text": "Count"
+                                    },
+                                    "designerId": "1699ef7b-a7c4-46ac-8e28-67ecf33fd3b9"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "form",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|region": "south",
+                                "designer|userClassName": "MyForm",
+                                "height": 150,
+                                "bodyPadding": 10,
+                                "title": null
+                            },
+                            "designerId": "ef64dd84-bccb-4ab5-84a0-00942b53888b",
+                            "cn": [
+                                {
+                                    "type": "textareafield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|anchor": "100%",
+                                        "designer|userClassName": "MyTextArea",
+                                        "fieldLabel": "Where?"
+                                    },
+                                    "designerId": "63459c10-e2f9-40b9-8158-694096e69b3f"
+                                },
+                                {
+                                    "type": "datefield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|anchor": "100%",
+                                        "designer|userClassName": "MyDateField",
+                                        "fieldLabel": "When?"
+                                    },
+                                    "designerId": "167fc84f-d8f5-4279-a11c-9e7d9e819cca"
+                                },
+                                {
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyButton",
+                                        "text": "Submit Order"
+                                    },
+                                    "designerId": "767425e6-6fcd-47a7-ba40-9887d317f718"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel2",
+                        "layout": "border",
+                        "title": "Order Status"
+                    },
+                    "designerId": "2fb43610-42eb-4ed3-8786-46783a581c15",
+                    "cn": [
+                        {
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig2"
+                            },
+                            "designerId": "e5265064-5a52-4a14-a5ea-b88c416bab07"
+                        },
+                        {
+                            "type": "gridpanel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|region": "center",
+                                "designer|userClassName": "MyGridPanel2",
+                                "title": null,
+                                "store": "JOrders"
+                            },
+                            "designerId": "29ca3d52-e49f-4452-aef5-9502688f9c09",
+                            "cn": [
+                                {
+                                    "type": "gridview",
+                                    "reference": {
+                                        "name": "viewConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyGridView2"
+                                    },
+                                    "designerId": "3ac22164-c9ea-4673-ba20-da1c69aeddcf"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn8",
+                                        "hidden": true,
+                                        "dataIndex": "id",
+                                        "text": "Id"
+                                    },
+                                    "designerId": "c5eb2281-9496-4e97-86c3-6d42905229ea"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn9",
+                                        "hidden": true,
+                                        "dataIndex": "idUser",
+                                        "text": "IdUser"
+                                    },
+                                    "designerId": "bc9352b0-0c92-42ce-9760-0b009dafcc7e"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn10",
+                                        "dataIndex": "address",
+                                        "text": "Address"
+                                    },
+                                    "designerId": "5b6a7a4f-30f4-4475-b4c2-59e5935c453e"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn11",
+                                        "dataIndex": "date",
+                                        "text": "Date"
+                                    },
+                                    "designerId": "c40c2827-80c7-4d74-97ea-4d3684f6aac7"
+                                },
+                                {
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyColumn12",
+                                        "dataIndex": "status",
+                                        "text": "Status"
+                                    },
+                                    "designerId": "ccb58604-a21e-4ae0-91d6-bfc49df42ce3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "bottom",
+                        "designer|userClassName": "MyToolbar"
+                    },
+                    "designerId": "d56bdd90-75ab-48fa-9f7d-76d187e54c5d",
+                    "cn": [
+                        {
+                            "type": "tbseparator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MySeparator"
+                            },
+                            "designerId": "f3dbefa9-4249-47cd-aebb-ae0b8ebc962e"
+                        },
+                        {
+                            "type": "tbtext",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MyTextItem",
+                                "text": "Cart items"
+                            },
+                            "designerId": "499c8466-97bc-4a3f-98f7-d8aa9a1e90b7"
+                        },
+                        {
+                            "type": "tbtext",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MyTextItem1",
+                                "text": "20"
+                            },
+                            "designerId": "27891ea4-906b-42a1-8889-b9a08457c3ee"
+                        },
+                        {
+                            "type": "tbseparator",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MySeparator1"
+                            },
+                            "designerId": "c93d61d2-4e42-43b5-9f7c-8b387a78aca8"
+                        },
+                        {
+                            "type": "tbtext",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MyTextItem2",
+                                "text": "USD$ 43"
+                            },
+                            "designerId": "6d649c11-1cb7-4537-a251-459d4c037da5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top",
+                "designer|userClassName": "MyToolbar1"
+            },
+            "designerId": "252fedd0-d463-4cf9-837a-dccc13bca06e",
+            "cn": [
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator2"
+                    },
+                    "designerId": "8a019a95-0908-4ec3-ba64-e84264dc7513"
+                },
+                {
+                    "type": "tbfill",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyFill"
+                    },
+                    "designerId": "f7831278-76b2-41ed-9f41-17c69043a679"
+                },
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator4"
+                    },
+                    "designerId": "6a02992e-9e16-41d6-aceb-256173b3b063"
+                },
+                {
+                    "type": "tbtext",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyTextItem3",
+                        "text": "Sign Up"
+                    },
+                    "designerId": "ab3f74f3-cb1e-4a9a-a29e-d9a114450c82"
+                },
+                {
+                    "type": "tbseparator",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MySeparator3"
+                    },
+                    "designerId": "5024fb87-ebb8-450d-b770-1bf915b59597"
+                }
+            ]
+        }
+    ]
+}

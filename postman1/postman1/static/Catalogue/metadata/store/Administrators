@@ -1,0 +1,15 @@
+{
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Administrators",
+        "storeId": "MyStore2",
+        "model": "Administrators"
+    },
+    "id": "ExtBox1-ext-gen12181",
+    "designerId": "89324d82-9c77-4621-9533-eecb9a10f334"
+}
